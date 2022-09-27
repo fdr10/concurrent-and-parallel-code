@@ -87,7 +87,7 @@ class Matrix{
 
 int main(int argc, char* argv[]){
   Matrix mat = {{1,2,3}, {4,5,6}, {7,8,9}};
-  Matrix identity_mat = {{1,0,0}, {0,1,0}, {1,0,1}};
+  Matrix identity_mat = {{1,0,0}, {0,1,0}, {0,0,1}};
   for(auto row: mat.data){
     for (auto cell: row){
       std::cout<<cell<<" ";
